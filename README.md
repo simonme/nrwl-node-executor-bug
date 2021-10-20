@@ -58,3 +58,7 @@ webpack compiled successfully (06dfbd1ab26302c6)
 First log     
 ➜  nrwl-node-executor-bug git:(main) ✗ Second log
 ```
+
+## Notes
+
+The more I think about it, the more it seems to me that `@nrwl/node:execute` doens't wait on anything, as the success message comes before the output of the program.
