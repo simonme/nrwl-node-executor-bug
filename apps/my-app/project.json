@@ -19,11 +19,12 @@
         "buildTarget": "my-app:build"
       }
     },
-    "bug-command": {
+    "broken-command": {
       "executor": "@nrwl/node:execute",
       "options": {
         "buildTarget": "my-app:build",
-        "watch": false
+        "watch": false,
+        "inspect": false
       }
     },
     "working-command": {
